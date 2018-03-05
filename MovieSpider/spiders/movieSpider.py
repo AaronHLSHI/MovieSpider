@@ -126,5 +126,5 @@ class ReadColorSpider(RedisSpider):
 
     def parse_movie_list_detail(self, response):
             item = response.meta['item']
-            print(item)
+            # print(item)
             yield item
